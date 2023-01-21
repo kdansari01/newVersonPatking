@@ -1,0 +1,17 @@
+.title{
+    transform: translate(0%,50%);
+    line-height: 20px;
+}
+.bookbtn{
+    display: flex;
+   justify-content: center;
+}
+.btn{
+    width: 250px;
+    height: 50px;
+    background: rgb(49, 149, 255);
+    border-radius: 20px;
+}
+.para{
+    font-size: 1rem;
+}

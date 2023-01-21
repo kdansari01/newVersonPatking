@@ -1,0 +1,28 @@
+.navbar {
+    font-family: monospace;
+    background: transparent;
+    font-size: .8rem;
+}
+
+.logNsign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+}
+
+.loginEff {
+    font-weight: bold;
+}
+
+.loggin:active {
+    background: rgba(255, 255, 255, 0.281);
+  
+}
+
+.signUp:active {
+    background: rgba(255, 255, 255, 0.281);
+   
+}
