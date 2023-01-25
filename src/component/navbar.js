@@ -52,16 +52,16 @@ const Header = () => {
               </li>
             </ul>
             <form className="d-flex text-light" role="search">
-              <div className="logNsign loggin">
-              <Link className="loginEff nav-link text-light">
-                Login
-                </Link>
-              </div>
-              <div className="logNsign signUp mx-2"> 
-                <Link className="signUpEf nav-link text-light mx-3 ">
+              <Link to="/user" className="logNsign loggin nav-link">
+              <div className="loginEff  text-light">
+                User
+                </div>
+              </Link>
+              {/* <Link to="/user" className="logNsign signUp mx-2 nav-link"> 
+                <div  className="signUpEf  text-light mx-3 ">
                 Sign Up
-                </Link>
-              </div>
+                </div>
+              </Link> */}
               
             </form>
           </div>

@@ -1,17 +1,37 @@
-.title{
-    transform: translate(0%,50%);
+.title {
+    transform: translate(0%, 50%);
     line-height: 20px;
+    opacity: 1;
+   
 }
-.bookbtn{
+
+
+.bookbtn {
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
-.btn{
+
+.btn {
     width: 250px;
     height: 50px;
     background: rgb(49, 149, 255);
     border-radius: 20px;
 }
-.para{
+
+.para {
     font-size: 1rem;
+}
+
+.landingPage {
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    width: 100vw;
+    min-height: 100vh;
+    opacity: .2;
 }
